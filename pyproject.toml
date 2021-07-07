@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "static-site-cdk"
+version = "0.1.0"
+description = ""
+authors = ["Rocky Jaiswal <rocky.jaiswal@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+"aws-cdk.core" = "^1.111.0"
+"aws-cdk.aws-s3" = "^1.111.0"
+"aws-cdk.aws-cloudfront" = "^1.111.0"
+"aws-cdk.aws-route53" = "^1.111.0"
+"aws-cdk.aws-route53-targets" = "^1.111.0"
+"aws-cdk.aws-s3-deployment" = "^1.111.0"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.6b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
