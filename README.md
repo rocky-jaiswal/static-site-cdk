@@ -1,6 +1,6 @@
 # Static Site with CDK
 
-Python CDK project
+Python CDK project to deploy a static site to AWS Cloudfront backed by a S3 bucket
 
 ## Useful commands
 
@@ -14,7 +14,6 @@ Python CDK project
 
 Enjoy!
 
-
 ## Note
 
-- First time, check if any stack is presnt in CloudFormation and delete it, `the run npx cdk bootstrap` otherwise CDK complains of "bootstrap error"
+- First time, check if any old stack is present in CloudFormation and delete it, `the run npx cdk bootstrap` otherwise CDK complains of "bootstrap error" :shrug:
