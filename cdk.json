@@ -1,5 +1,5 @@
 {
-  "app": "python app.py -d praywithus.site -c ./site-contents -a 750324395434 -r eu-central-1",
+  "app": "python app.py -d $DOMAIN -a $AWS_ACCOUNT_ID -r $AWS_REGION -c ./site-contents ",
   "context": {
     "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
     "@aws-cdk/core:enableStackNameDuplicates": "true",
